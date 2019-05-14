@@ -85,6 +85,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LENOVO_PREBUILT)/kernel/dtb.img:dtb.img
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.lenovo
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayTB128FU \
