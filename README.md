@@ -16,7 +16,7 @@ GPU     | Adreno 610
 Storage | 64/128GB
 RAM     | 4/6GB
 Shipped Android Version | Android 12, ZUI 13.5
-Battery | Li-Po 7000 mAh, non-removable
+Battery | Li-Po 7700 mAh, non-removable
 Display | LCD, 60Hz, TuV, 400 nits (typ)
 
 ## Device picture
