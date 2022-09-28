@@ -1,2 +1,6 @@
 [
+  {
+    "repository": "device_lenovo_P89990JA1-prebuilt",
+    "target_path": "device/lenovo/P89990JA1-prebuilt"
+  }
 ]
