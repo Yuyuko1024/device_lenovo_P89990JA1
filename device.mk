@@ -61,6 +61,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    FrameworkResOverlayLenovo \
     WifiResOverlayLenovo
 
 # Partitions
