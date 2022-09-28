@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+$(call inherit-product, vendor/lenovo/P89990JA1/P89990JA1-vendor.mk)
+
 PREBUILT_PATH := device/lenovo/P89990JA1-prebuilt
 
 # Enable updating of APEXes
