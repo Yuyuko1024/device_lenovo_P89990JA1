@@ -34,6 +34,16 @@ AB_OTA_POSTINSTALL_CONFIG += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Bootcontrol
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.1-impl-qti \
+    android.hardware.boot@1.1-impl-qti.recovery \
+    android.hardware.boot@1.1-service \
+    bootctrl.bengal.recovery
+
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl
+
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
@@ -55,7 +65,8 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/qcom-caf/bootctrl
 
 # Update engine
 PRODUCT_PACKAGES += \
