@@ -62,7 +62,8 @@ PRODUCT_PACKAGES_DEBUG += \
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
-    init.recovery.qcom.sh
+    init.recovery.qcom.sh \
+    fstab.qcom
 
 # fastbootd
 PRODUCT_PACKAGES += \
