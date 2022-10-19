@@ -5,6 +5,7 @@
 #
 
 DEVICE_PATH := device/lenovo/P89990JA1
+LENOVO_PREBUILT := device/lenovo/TB128FU-prebuilt
 
 BUILD_BROKEN_DUP_RULES := true
 
