@@ -121,6 +121,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Sepolicy
 include device/qcom/sepolicy/SEPolicy.mk
 
+# VINTF
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.device.xml
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
