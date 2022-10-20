@@ -1,0 +1,7 @@
+runtime_resource_overlay {
+    name: "SystemUIOverlayTB128FU",
+    theme: "SystemUIOverlayTB128FU",
+    certificate: "platform",
+    sdk_version: "current",
+    product_specific: true
+}

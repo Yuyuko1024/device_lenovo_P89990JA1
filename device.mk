@@ -81,7 +81,8 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayTB128FU \
-    WifiResOverlayTB128FU
+    WifiResOverlayTB128FU \
+    SystemUIOverlayTB128FU
 
 # Overlays - override vendor ones
 PRODUCT_PACKAGES += \
