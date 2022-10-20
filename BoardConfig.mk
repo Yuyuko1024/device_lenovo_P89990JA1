@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Inherit from the proprietary version
+-include vendor/lenovo/P89990JA1/BoardConfigVendor.mk
+
 DEVICE_PATH := device/lenovo/P89990JA1
 LENOVO_PREBUILT := device/lenovo/TB128FU-prebuilt
 
