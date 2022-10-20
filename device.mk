@@ -81,8 +81,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
-PRODUCT_HOST_PACKAGES += \
-    brillo_update_payload
-
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
