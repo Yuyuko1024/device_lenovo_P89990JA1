@@ -82,7 +82,7 @@ PRODUCT_PACKAGES += \
 
 # Kernel
 PRODUCT_COPY_FILES += \
-    $(NABU_PREBUILT)/kernel/dtb.img:dtb.img
+    $(LENOVO_PREBUILT)/kernel/dtb.img:dtb.img
 
 # Overlays
 PRODUCT_PACKAGES += \
