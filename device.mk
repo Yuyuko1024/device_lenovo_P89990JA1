@@ -81,6 +81,11 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayTB128FU \
     WifiResOverlayTB128FU
 
+# Overlays - override vendor ones
+PRODUCT_PACKAGES += \
+    FrameworksResTarget \
+    WifiResTarget
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false

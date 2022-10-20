@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),P89990JA1)
-	include $(call all-makefiles-under,$(LOCAL_PATH))
-	include $(CLEAR_VARS)
+subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
+$(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
 endif
