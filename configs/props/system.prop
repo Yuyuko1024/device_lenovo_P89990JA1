@@ -1,6 +1,7 @@
 # Bluetooth
 ro.bluetooth.library_name=libbluetooth_qti.so
 persist.vendor.btstack.aac_frm_ctl.enabled=true
+persist.vendor.btstack.enable.twsplus=true
 
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
