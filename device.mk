@@ -22,6 +22,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_TARGET_VNDK_VERSION := $(PRODUCT_SHIPPING_API_LEVEL)
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
@@ -120,9 +121,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
-
-# VNDK
-PRODUCT_TARGET_VNDK_VERSION := 30
 
 # WiFi Display
 PRODUCT_PACKAGES += \
