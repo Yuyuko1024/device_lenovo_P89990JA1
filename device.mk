@@ -67,6 +67,7 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
+    fstab.qcom.ramdisk \
     init.recovery.qcom.rc \
     init.recovery.usb.rc \
     init.recovery.qcom.sh \
@@ -82,6 +83,10 @@ PRODUCT_PACKAGES += \
     sg_write_buffer \
     f2fs_io \
     check_f2fs
+
+# Fstab
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_RECOVERY_ROOT_OUT)/system/etc/recovery.fstab
 
 # HIDL
 PRODUCT_PACKAGES += \
